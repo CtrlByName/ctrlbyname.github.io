@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>CtrlByName\site</title>
+    <style>
+        body {
+            background: rgb(0, 0, 0);
+            color: rgb(45, 45, 45);
+            padding: 10px;
+            font-family: consolas;
+        }
+        #all-contents {
+          max-width: 1300px;
+            margin: auto;
+        }
+     
+        /* navigation menu */
+        nav {
+            background: rgb(195, 169, 216);
+           margin: 0 auto;
+           margin-bottom: 20px;
+            display: flex;
+            padding: 10px;
+            border: 4px silver ridge;
+        }
+        h1 {
+            display: flex;
+            align-items: center;
+            color: rgb(0, 0, 0);
+            flex: 0;
+            margin: 0;
+        }
+        #nav-ul {
+            list-style-image: none;
+        }
+        .nav-li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(32, 57, 201);
+        }
+     
+        /* main container area beneath menu */
+        main {
+            background: rgb(167, 95, 180);
+            display: flex;
+            border: 4px silver ridge;
+        }
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+        .sidebar-img {
+            width: 300px;
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+            border: 4px rgb(84, 23, 184) solid;
+        }
+        #interests {
+            padding: 8px;
+        }
+        h2, h3 {
+            margin: 0px;
+        }
+     </style>
+    </head>
+    
+    <body>
+     <div id="all-contents">
+        <nav>
+        <h1>CtrlByName\site</h1>
+        <ul id="nav-ul">
+            <li class="nav-li">
+                <a href="index.html"> Home </a>
+            </li>
+            <li class="nav-li">
+                <a href="index.html"> Portfolio </a>
+            </li>
+        </ul>
+        </nav>
+
+        <main>
+        <!-- Sidebar section -->
+         <div id="sidebar">
+        <img class=sidebar-img src="https://cdn.discordapp.com/attachments/598036677591564310/982831553916829767/Untitled_Artwork.png">
+         </div>
+        
+        <!-- Content section -->
+         <div class="content">
+        <h2>CtrlByName</h2>
+        <p>Welcome to the main page of CtrlByName\site, please go into the 'Portfolio' page link to head over to CtrlByName\Portfolio</p>
+        <!-- Interests section -->
+        <div id="interests">
+            <h3>Interests</h3>
+            <ul>
+                <li>'Horror' genre media</li>
+                <li>Reading, but mostly writing</li>
+                <li>Rhythm Games</li>
+            </ul>
+        </div>
+         </div>
+        </main>
+     </div>
+    </body>
+</html>
